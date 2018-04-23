@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "753375463918",
+    "firebase_url": "https://pgpfirebaseproject.firebaseio.com",
+    "project_id": "pgpfirebaseproject",
+    "storage_bucket": "pgpfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753375463918:android:977a15aa24b47a25",
+        "android_client_info": {
+          "package_name": "com.programer.caio.pgp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753375463918-r63905qk61mp29cuebmfcc5g5p63mhvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.programer.caio.pgp",
+            "certificate_hash": "b92a7e498361a587c1a37180be0dc6c8b580f7d3"
+          }
+        },
+        {
+          "client_id": "753375463918-o903gv3et7a2clp7cnjmm2vatr5kob1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgALgXJXc92N_D6L7CRl3jf-Tgxym-tPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753375463918-o903gv3et7a2clp7cnjmm2vatr5kob1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

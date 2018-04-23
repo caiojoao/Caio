@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/holo_red_dark"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edt_novopedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_addPedido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="10sp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_addPedido"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edt_novopedido"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:text="Enviar"
+        android:textColor="@android:color/background_dark" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/edt_novopedido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="?android:attr/actionModeFindDrawable" />
+
+</RelativeLayout>
